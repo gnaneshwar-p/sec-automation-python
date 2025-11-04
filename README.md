@@ -94,6 +94,7 @@ python scripts/phishing_analyzer.py --input sample_data/example.eml --output out
 ```
 Inspect output/example_report.json.
 
+---
 ### Automation, Scheduling & Integration
 
 Run scripts via cron (Linux) or Task Scheduler (Windows). Example cron entry to run IP lookup nightly:
@@ -106,7 +107,7 @@ Containerize with Docker for portability (create simple Dockerfile).
 Integrate outputs into SIEM: index CSV/JSON into Splunk/Wazuh/Elastic using API or syslog.
 Expose a small Flask or FastAPI wrapper to turn scripts into REST endpoints.
 
-
+---
 ## Project Highlights
 
 Reduces manual SOC tasks by ~40% in lab environment
