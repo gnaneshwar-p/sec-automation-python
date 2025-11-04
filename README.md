@@ -84,13 +84,6 @@ Phishing Email Analyzer
 python scripts/phishing_analyzer.py --input sample_data/example.eml --output output/email_report.json
 ```
 ---
-## Sample Output
-
-Parsed logs: output/parsed.csv
-IP reputation: output/ip_reputation.csv
-Phishing report: output/email_report.json
-
----
 
 ## Project Highlights
 
