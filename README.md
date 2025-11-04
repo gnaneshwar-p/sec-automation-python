@@ -84,6 +84,28 @@ Phishing Email Analyzer
 python scripts/phishing_analyzer.py --input sample_data/example.eml --output output/email_report.json
 ```
 ---
+### how to test 
+ save sample EML files in sample_data/
+ Run:
+
+ ```bash
+
+python scripts/phishing_analyzer.py --input sample_data/example.eml --output output/example_report.json
+```
+Inspect output/example_report.json.
+
+### Automation, Scheduling & Integration
+
+Run scripts via cron (Linux) or Task Scheduler (Windows). Example cron entry to run IP lookup nightly:
+
+```bash
+
+0 2 * * * /path/to/venv/bin/python /path/to/scripts/ip_reputation.py --input /path/to/sample_data/ips.txt --output /path/to/output/ip_reputation.csv
+```
+Containerize with Docker for portability (create simple Dockerfile).
+Integrate outputs into SIEM: index CSV/JSON into Splunk/Wazuh/Elastic using API or syslog.
+Expose a small Flask or FastAPI wrapper to turn scripts into REST endpoints.
+
 
 ## Project Highlights
 
