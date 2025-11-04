@@ -36,18 +36,21 @@ This project highlights **hands-on skills in Python scripting, SOC automation, l
 
 ## Getting Started
 
-### 1. Clone the repository
+### 1. Clone the repository 
 ```bash
 git clone https://github.com/<your-username>/sec-automation-python.git
 cd sec-automation-python
-
+```
 ---
 
-2. Create and activate Python virtual environment
+###2. Create and activate Python virtual environment
+
+```bash
 python3 -m venv venv
 source venv/bin/activate    # Linux/macOS
 venv\Scripts\activate       # Windows
 
+---
 3. Install dependencies
 pip install -r requirements.txt
 
