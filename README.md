@@ -41,6 +41,8 @@ This project highlights **hands-on skills in Python scripting, SOC automation, l
 git clone https://github.com/<your-username>/sec-automation-python.git
 cd sec-automation-python
 
+---
+
 2. Create and activate Python virtual environment
 python3 -m venv venv
 source venv/bin/activate    # Linux/macOS
